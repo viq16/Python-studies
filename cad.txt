@@ -1,0 +1,35 @@
+import math
+import cmath
+import time
+
+#1
+
+x = (2 * (7 * math.sin(math.pi / 2) + math.cos(0) / 3)**(1/5)) - math.log2(18)
+
+#2
+
+x = math.factorial(30) ** 11
+
+#3
+
+
+x = math.gcd(math.factorial(60), 8 ** 120)
+
+#4
+
+x = int('2021',3)
+y = int('10212',3)
+print(x*y)
+
+#5
+
+a = math.pi / 7
+b = math.e ** 2
+c = 3 / math.pi
+result = ((b * (math.tan(2.1 * a) ** c)) / 3 * math.e ** b) - math.cos(a + c)
+
+#6
+
+result = cmath.e ** complex(0, 2) + cmath.sqrt(-5)
+
+%time result lub %timeit result #timeit to wykonuje siê ileœ tam razy 
